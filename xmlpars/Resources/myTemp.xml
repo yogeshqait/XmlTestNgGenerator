@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mexico Metrics Test" thread-count="20" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <test enabled="true" name="test1" preserve-order="true">
+        <parameter name="metric" value="test1"/>
+        <classes>
+            <class name="MX_New_Metric.Mexico_Metrics_Test"/>
+        </classes>
+    </test>
+    <test enabled="true" name="tes2" preserve-order="true">
+        <parameter name="metric" value="tes2"/>
+        <classes>
+            <class name="MX_New_Metric.Mexico_Metrics_Test"/>
+        </classes>
+    </test>
+    <test enabled="true" name="tes3" preserve-order="true">
+        <parameter name="metric" value="tes3"/>
+        <classes>
+            <class name="MX_New_Metric.Mexico_Metrics_Test"/>
+        </classes>
+    </test>
+    <test enabled="true" name="ter3" preserve-order="true">
+        <parameter name="metric" value="ter3"/>
+        <classes>
+            <class name="MX_New_Metric.Mexico_Metrics_Test"/>
+        </classes>
+    </test>
+    <test enabled="true" name="tefd4" preserve-order="true">
+        <parameter name="metric" value="tefd4"/>
+        <classes>
+            <class name="MX_New_Metric.Mexico_Metrics_Test"/>
+        </classes>
+    </test>
+    <test enabled="true" name="sfhsjf45" preserve-order="true">
+        <parameter name="metric" value="sfhsjf45"/>
+        <classes>
+            <class name="MX_New_Metric.Mexico_Metrics_Test"/>
+        </classes>
+    </test>
+    <test enabled="true" name="dthfthb7s6" preserve-order="true">
+        <parameter name="metric" value="dthfthb7s6"/>
+        <classes>
+            <class name="MX_New_Metric.Mexico_Metrics_Test"/>
+        </classes>
+    </test>
+</suite>
